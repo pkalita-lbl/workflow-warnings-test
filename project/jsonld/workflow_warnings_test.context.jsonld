@@ -1,0 +1,47 @@
+{
+   "_comments": "Auto generated from workflow_warnings_test.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-12-08T10:16:49\n    Schema: workflow-warnings-test\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: https://w3id.org/pkalita-lbl/workflow-warnings-test\n    description: This is the project description.\n    license: MIT\n    ",
+   "@context": {
+      "PATO": {
+         "@id": "http://purl.obolibrary.org/obo/PATO_",
+         "@prefix": true
+      },
+      "biolink": "https://w3id.org/biolink/",
+      "example": "https://example.org/",
+      "linkml": "https://w3id.org/linkml/",
+      "schema": "http://schema.org/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "workflow_warnings_test": "https://w3id.org/pkalita-lbl/workflow-warnings-test/",
+      "@vocab": "https://w3id.org/pkalita-lbl/workflow-warnings-test/",
+      "age_in_years": {
+         "@type": "xsd:integer"
+      },
+      "birth_date": {
+         "@type": "xsd:date",
+         "@id": "schema:birthDate"
+      },
+      "description": {
+         "@id": "schema:description"
+      },
+      "id": "@id",
+      "name": {
+         "@id": "schema:name"
+      },
+      "entries": {
+         "@type": "@id"
+      },
+      "primary_email": {
+         "@id": "schema:email"
+      },
+      "vital_status": {
+         "@context": {
+            "@vocab": "@null",
+            "text": "skos:notation",
+            "description": "skos:prefLabel",
+            "meaning": "@id"
+         }
+      },
+      "NamedThing": {
+         "@id": "schema:Thing"
+      }
+   }
+}
